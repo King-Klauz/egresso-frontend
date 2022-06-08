@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import logo from './assets/logo.svg'
+import NavBar from './LayoutComponents/NavBar';
 import Login from './pages/Login/Login';
 import Register from './pages/Register/Register';
 
@@ -12,7 +13,8 @@ function App() {
 
   return (
     //<Login/>
-    <Register/>
+    //<Register/>
+    <NavBar/>
   );
 }
 
